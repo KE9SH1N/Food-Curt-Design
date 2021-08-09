@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="other/font-awesome.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- TITLE -->
+    <title>Sales Food</title>
+
+ 
+
+  </head>
+
+
+  <body>
+
+    <section>
+      
+      <div class="container-fluid clear">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand animated flipInX " href="#">Food Curt</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="fast-food.html">Fast Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bangla-food.html">Bangla Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="sale-food.html">Sales Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="reporting.html">Reporting</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+    </div>
+    
+    </section>
+
+
+      
+        <section>
+          <h4 style="text-align: center;margin-bottom: 2rem;text-decoration: underline;font-weight: bold;font-size: 28px;margin-top: 1rem;">SALES FOOD</h4>
+          <div class="container" style="margin-top: 2rem;">
+            <div class="row">
+              <div class="col-3">
+                <div class="list-group" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action active" id="list-catagory-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">All Sales Items</a>
+                  <a class="list-group-item list-group-item-action" id="list-items-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Chart & Price</a>
+                  
+                  
+                </div>
+              </div>
+              <div class="col-9">
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-catagory-list">
+                    <form class="form-inline">
+                      <div class="form-group mx-sm-3 mb-2">
+                        <input list="browsers" name="browser" class="form-control" placeholder="Select Fast Food Items">
+                       
+                        <datalist id="browsers">
+                          <option value="Internet Explorer"></option>
+                          <option value="Firefox"></option>
+                          <option value="Chrome"></option>
+                          <option value="Opera"></option>
+                          <option value="Safari"></option>
+                        </datalist>
+                       </div>
+
+                       <button type="submit" class="btn btn-primary mb-2" style="">Save</button>
+                      
+                    </form>
+
+
+                     <form class="form-inline">
+                      <div class="form-group mx-sm-3 mb-2">
+                        <input list="browsers" name="browser" class="form-control" placeholder="Select Bangla Food Items">
+                       
+                        <datalist id="browsers">
+                          <option value="Internet Explorer"></option>
+                          <option value="Firefox"></option>
+                          <option value="Chrome"></option>
+                          <option value="Opera"></option>
+                          <option value="Safari"></option>
+                        </datalist>
+                       </div>
+
+                       <button type="submit" class="btn btn-primary mb-2" style="">Save</button>
+                      
+                    </form>
+
+                    <div class="row">
+                                 
+                      <div class="col-md-8">          
+                        <table class="table table-dark table-striped">
+                          <thead>
+                            <tr>
+                              <th>Name</th>
+                              <th>Price</th>
+                              <th>Quantity</th>
+                              <th>Customize</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>John</td>
+                              <td>10/=</td>
+                              <td>2</td>
+
+                              
+                              <td>
+                                <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+                              </td>
+
+                            </tr>
+                           
+                            </tr>
+                          </tbody>
+                        </table>
+                        <button type="submit" class="btn btn-primary mb-2" style="margin-left: 1rem;">Confirm & Save Order</button>
+                        <button type="submit" class="btn btn-primary mb-2" style="">Print</button>
+                    </div>
+                    </div>
+                  </div>
+
+
+                  <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-items-list">
+
+                    <form class="form-inline">
+                      <div class="form-group mx-sm-3 mb-2">
+                        <label for="inputcatagory" class="sr-only">Text</label>
+                        <input type="text" class="form-control" id="inputcatagory" placeholder="Enter Name">
+                      </div>
+                      <div class="form-group mx-sm-3 mb-2">
+                        <label for="inputprice" class="sr-only">Text</label>
+                        <input type="text" class="form-control" id="inputprice" placeholder="Enter Price">
+                      </div>
+                      <button type="submit" class="btn btn-primary mb-2">Save</button>
+                    </form>
+
+                    <div class="row">
+                                 
+                      <div class="col-md-8">          
+                        <table class="table table-dark table-striped">
+                          <thead>
+                            <tr>
+                              <th>Name</th>
+                              <th>Price</th>
+                              <th>Customize</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>John</td>
+                              <td>10/=</td>
+                              <td>
+                                <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+                              </td>
+
+                            </tr>
+                            <tr>
+                              <td>Mary</td>
+                              <td>10/=</td>
+                              
+                              <td>
+                                <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>July</td>
+                              <td>10/=</td>
+                              
+                              <td>
+                                <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>July</td>
+                              <td>10/=</td>
+                              
+                              <td>
+                                <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>July</td>
+                              <td>10/=</td>
+                              
+                              <td>
+                                <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>July</td>
+                              <td>10/=</td>
+                              
+                              <td>
+                                <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>July</td>
+                              <td>10/=</td>
+                              
+                              <td>
+                                <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>July</td>
+                              <td>10/=</td>
+                              
+                              <td>
+                                <span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+      
+    
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+        <script src="other/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    
+    
+    
+  </body>
+</html>
